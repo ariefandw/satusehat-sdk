@@ -1,0 +1,26 @@
+{
+  "name": "ariefandw/satusehat-sdk",
+  "description": "SDK for SATUSEHAT platform",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+      "kemenkes", "satusehat", "emr", "medis", "sehat"
+  ],
+  "authors": [
+    {
+      "name": "Ariefan Dipokusumo Wibowo",
+      "email": "ariefandw@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ariefandw\\SatusehatSDK\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
+
